@@ -49,7 +49,7 @@ module.exports = (function makeWebpackConfig () {
      * Output path from the view of the page
      * Uses webpack-dev-server in development
      */
-    publicPath: isProd ? '/' : 'http://localhost:' + port + '/',
+    publicPath: isProd ? './' : 'http://localhost:' + port + '/',
 
     /**
      * Filename for entry points
