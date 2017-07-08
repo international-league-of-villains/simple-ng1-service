@@ -17,7 +17,8 @@
     "start": "npm run server",
     "stats": "webpack --json --profile > stats.json",
     "selenium-install": "node seleniumInstall.js",
-    "selenium-start": "selenium-standalone start"
+    "selenium-start": "selenium-standalone start",
+    "gh-deploy": "node scripts/gh-deploy.js"
   },
   "repository": {
     "type": "git",
