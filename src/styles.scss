@@ -1,9 +1,52 @@
+@import '../node_modules/angular-material/angular-material.css';
+$assets_path: '../' !default;
+
+html, body {
+  height: 100%;
+}
 body {
-  background-color: #ededed;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./assets/images/legion-of-super-villains.jpg);
 }
+
 section {
-  border-radius: 3px;
-  border: solid 1px #ececec;
-  background-color: white;
-  padding: 15px 20px;
+  background-color: rgba(255, 255, 255, .98);
+  width: 50%;
+  padding: 40px 20px 60px 20px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.5);
 }
+/*
+#example {
+  background-color: rgba(255, 255, 255, .98);
+  width: 50%;
+  padding: 40px 20px 60px 20px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.5);
+}
+
+old-select-wrapper {
+  background-color: rgba(255, 255, 255, .98);
+  width: 50%;
+  padding: 40px 20px 60px 20px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.5);
+}
+@media only screen and (max-width: 890px) {
+  old-select-wrapper {
+    width: 90%;
+  }
+}
+*/
